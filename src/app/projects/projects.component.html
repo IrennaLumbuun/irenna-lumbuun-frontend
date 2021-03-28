@@ -23,7 +23,7 @@
         <p class="project-description">{{project.description}}</p>
         <!--Onclick links to url-->
         <ul class="project-tags" *ngFor="let tag of project.tags">
-          <li class="project-tags-item" style="background-color:{{getTagColorClone(tag.replace(' ', '-').toLowerCase())}}">{{tag}}</li>
+          <li class="project-tags-item" style="background-color:{{getTagColorClone(tag.replace(' ', '-').toLowerCase())[0]}}">{{tag}}</li>
         </ul>
       </a></div>
     </div>
