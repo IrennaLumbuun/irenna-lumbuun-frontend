@@ -7,7 +7,7 @@ import { ProjectsComponent } from './projects';
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'projects', component: ProjectsComponent},
-  {path: 'beyond-coding', component: BeyondCodingComponent},
+  //{path: 'beyond-coding', component: BeyondCodingComponent},
 
   // otherwise, redirect to home
   {path: '**', redirectTo:''}

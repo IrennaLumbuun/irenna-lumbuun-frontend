@@ -23,3 +23,7 @@ p {
 .spacer {
   flex: 1;
 }
+
+ul#nav-wrapper {
+    background: black;
+}
