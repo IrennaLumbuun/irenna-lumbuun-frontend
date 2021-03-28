@@ -3,7 +3,7 @@ import {HttpClient} from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry, map } from 'rxjs/operators';
 
-const url= "http://irennalumbuunbackend-env.eba-hf39yz2d.us-east-2.elasticbeanstalk.com"
+const url= "https://irenna-lumbuun-backend.herokuapp.com"
 
 @Injectable()
 export class ProjectsService{
