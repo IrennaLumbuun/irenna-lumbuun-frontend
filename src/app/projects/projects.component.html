@@ -1,0 +1,30 @@
+<h1 id="project-title">{{getTitle()}}</h1>
+<h2 id="project-filter-title">Filters by technologies</h2>
+
+<div *ngIf="isTagsAvailable">
+  <div multiple="true" id="filter-container">
+      <mat-button-toggle value="all" (change)="onValChange($event.value)">
+        <div style="background-color:white" class="filter-option" id="all">
+          <strong>All Projects</strong>
+         </div>
+      </mat-button-toggle>
+      <mat-button-toggle *ngFor="let tag of tags" value="{{tag.name}}" (change)="onValChange($event.value)">
+         <div style="background-color:{{tag.color}}" class="filter-option" id="{{tag.id}}">
+          {{tag.name.replace("-", " ")}}
+         </div>
+        </mat-button-toggle>
+      </div>
+</div>
+
+<div *ngIf="isDataAvailable" id="projects-container">
+    <div *ngFor="let project of projects">
+      <div class="project-component"><a href={{project.url}} target="_blank">
+        <h1 class="project-title">{{project.title}}</h1>
+        <p class="project-description">{{project.description}}</p>
+        <!--Onclick links to url-->
+        <ul class="project-tags" *ngFor="let tag of project.tags">
+          <li class="project-tags-item" style="background-color:{{getTagColorClone(tag.replace(' ', '-').toLowerCase())}}">{{tag}}</li>
+        </ul>
+      </a></div>
+    </div>
+</div>

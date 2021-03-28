@@ -1,0 +1,161 @@
+[
+    {
+        "id": "aws",
+        "name": "aws",
+        "projects": [
+            "personal-website"
+        ]
+    },
+    {
+        "id": "machine-learning",
+        "name": "machine-learning",
+        "projects": [
+            "rateme",
+            "prognomic"
+        ]
+    },
+    {
+        "id": "firebase-database",
+        "name": "Firebase Database",
+        "projects": [
+            "be-okay",
+            "bethel-community-app"
+        ]
+    },
+    {
+        "id": "react",
+        "name": "react",
+        "projects": [
+            "sonder",
+            "get-image-zipcode",
+            "calculate-this"
+        ]
+    },
+    {
+        "id": "keras",
+        "name": "keras",
+        "projects": [
+            "prognomic"
+        ]
+    },
+    {
+        "id": "swift",
+        "name": "swift",
+        "projects": [
+            "bethel-community-app"
+        ]
+    },
+    {
+        "id": "angular",
+        "name": "angular",
+        "projects": [
+            "personal-website"
+        ]
+    },
+    {
+        "id": "scikit",
+        "name": "scikit",
+        "projects": [
+            "rateme"
+        ]
+    },
+    {
+        "id": "c",
+        "name": "c",
+        "projects": [
+            "c-shell",
+            "lwz-compression"
+        ]
+    },
+    {
+        "id": "javascript",
+        "name": "Javascript",
+        "projects": [
+            "be-okay",
+            "the-llama-project",
+            "sonder",
+            "personal-website",
+            "get-image-zipcode",
+            "calculate-this"
+        ]
+    },
+    {
+        "id": "computer-vision",
+        "name": "computer-vision",
+        "projects": [
+            "musclemate",
+            "rateme",
+            "prognomic"
+        ]
+    },
+    {
+        "id": "mongodb",
+        "name": "mongodb",
+        "projects": [
+            "sonder"
+        ]
+    },
+    {
+        "id": "node.js",
+        "name": "node.js",
+        "projects": [
+            "personal-website",
+            "calculate-this"
+        ]
+    },
+    {
+        "id": "docker",
+        "name": "docker",
+        "projects": [
+            "get-image-zipcode"
+        ]
+    },
+    {
+        "id": "python",
+        "name": "python",
+        "projects": [
+            "sonder",
+            "get-image-zipcode",
+            "musclemate",
+            "rateme"
+        ]
+    },
+    {
+        "id": "google-cloud",
+        "name": "google-cloud",
+        "projects": [
+            "rateme",
+            "prognomic"
+        ]
+    },
+    {
+        "id": "dynamodb",
+        "name": "dynamodb",
+        "projects": [
+            "personal-website"
+        ]
+    },
+    {
+        "id": "flask",
+        "name": "flask",
+        "projects": [
+            "sonder",
+            "get-image-zipcode",
+            "rateme",
+            "prognomic"
+        ]
+    },
+    {
+        "id": "html/css",
+        "name": "HTML/CSS",
+        "projects": [
+            "be-okay",
+            "the-llama-project",
+            "sonder",
+            "personal-website",
+            "get-image-zipcode",
+            "rateme",
+            "calculate-this"
+        ]
+    }
+]

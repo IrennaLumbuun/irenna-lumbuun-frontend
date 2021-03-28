@@ -1,0 +1,155 @@
+[
+    {
+        "projectId": "prognomic",
+        "description": "AI diagnostic tools that lets patient upload pictures and get information on their condition. Once the photo has been processed, their doctor can view the picture, diagnosis, and add comments.",
+        "bgImg": "",
+        "url": "https://devpost.com/software/prognomic",
+        "tags": [
+            "Flask",
+            "Keras",
+            "Google Cloud",
+            "Computer Vision",
+            "Machine Learning"
+        ],
+        "title": "Prognomic"
+    },
+    {
+        "projectId": "rateme",
+        "description": "Using data from r/TrueRateMe, this app predicts how you would score with the standard of attractiveness defined in the r/TrueRateMe subreddit. This is a work in project as I am still experimenting on different machine learning algorithms",
+        "bgImg": "",
+        "url": "https://github.com/IrennaLumbuun/RateMe",
+        "tags": [
+            "HTML/CSS",
+            "Python",
+            "Flask",
+            "Scikit",
+            "Google Cloud",
+            "Computer Vision",
+            "Machine Learning"
+        ],
+        "title": "RateMe"
+    },
+    {
+        "projectId": "c-shell",
+        "description": "A replika of bash shell. This program lets uses write commands and use pipelines & IO redirection as if they were using Bash.",
+        "bgImg": "",
+        "url": "",
+        "tags": [
+            "C"
+        ],
+        "title": "C Shell"
+    },
+    {
+        "projectId": "personal-website",
+        "description": "The website you are currently looking at :)",
+        "bgImg": "",
+        "url": "",
+        "tags": [
+            "HTML/CSS",
+            "Angular",
+            "Javascript",
+            "Node.js",
+            "DynamoDB",
+            "AWS"
+        ],
+        "title": "Personal Website"
+    },
+    {
+        "projectId": "calculate-this",
+        "description": "A web app that logs calculations as they happen and shares those calculations with everyone connected to the app.",
+        "bgImg": "",
+        "url": "https://github.com/IrennaLumbuun/sezzle-2020-calculator",
+        "tags": [
+            "HTML/CSS",
+            "React",
+            "Node.js",
+            "Javascript"
+        ],
+        "title": "Calculate This"
+    },
+    {
+        "projectId": "bethel-community-app",
+        "description": "A mobile app that lets members of Bethel Church in Indonesia to livestream Sunday services and connect with each other. A work in progress. Scheduled to launch mid 2021.",
+        "bgImg": "",
+        "url": "https://github.com/IrennaLumbuun/BethelChurchApp",
+        "tags": [
+            "Swift",
+            "Firebase Database"
+        ],
+        "title": "Bethel Community App"
+    },
+    {
+        "projectId": "musclemate",
+        "description": "Stroke causes people to lose some of their muscle memory on certain parts of the body: mainly hands and feet. MuscleMate is a motion-tracker that lets users exercise at the comfort of their home. Winner of OhloneHacks 2020.",
+        "bgImg": "",
+        "url": "https://github.com/IrennaLumbuun/MuscleMate",
+        "tags": [
+            "Computer Vision",
+            "Python"
+        ],
+        "title": "MuscleMate"
+    },
+    {
+        "projectId": "sonder",
+        "description": "A web app that lets users plan a trip knowing exactly how much to spend. A work in progress.",
+        "bgImg": "",
+        "url": "https://github.com/niemp296/Sonder",
+        "tags": [
+            "HTML/CSS",
+            "Javascript",
+            "React",
+            "Flask",
+            "Python",
+            "MongoDB"
+        ],
+        "title": "Sonder"
+    },
+    {
+        "projectId": "get-image-zipcode",
+        "description": "Enter a base64 encoding and get the information on where the image was taken.",
+        "bgImg": "",
+        "url": "https://github.com/IrennaLumbuun/ImageZipCode",
+        "tags": [
+            "HTML/CSS",
+            "React",
+            "Javascript",
+            "Flask",
+            "Python",
+            "Docker"
+        ],
+        "title": "Get Image ZipCode"
+    },
+    {
+        "projectId": "be-okay",
+        "description": "A place to unload your thoughts and watch them disappear into droplets of rain. Create an account to track your daily stress level.",
+        "bgImg": "https://photos.app.goo.gl/eQfWWyqoYLcvQGDn8",
+        "url": "https://irennalumbuun.github.io/Be-Okay/",
+        "tags": [
+            "HTML/CSS",
+            "Javascript",
+            "Firebase Database"
+        ],
+        "title": "Be Okay"
+    },
+    {
+        "projectId": "the-llama-project",
+        "description": "Learn more about llamas and find out what is your inner cameloid!",
+        "bgImg": "",
+        "url": "https://irennalumbuun.github.io/Llama/",
+        "tags": [
+            "HTML/CSS",
+            "Javascript"
+        ],
+        "title": "The Llama Project"
+    },
+    {
+        "projectId": "lwz-compression",
+        "description": "Using a trie (n-ary tree) data stucture as the dictionary of code-sequence pair, this program implements LZW compression algorithm to compress both binary and text files. Users are allowed to specify at which point they want to recycle the dictionary.",
+        "bgImg": "",
+        "url": "",
+        "tags": [
+            "C"
+        ],
+        "title": "LWZ Compression"
+    }
+]
