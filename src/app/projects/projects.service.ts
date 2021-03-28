@@ -63,6 +63,7 @@ export class ProjectsService{
         const ml = ["machine-learning", "keras", "scikit", "computer-vision"]; // white
         const mobile = ["swift", "react-native"]; // orange
         const system = ["c"]; // gray
+        const category = ["personal-project", "hackathon", "organization"]
 
         let color: string = "";
         let order: number = 0;
@@ -93,6 +94,10 @@ export class ProjectsService{
         else if (system.includes(tag_id)) {
             color = "#d3d3d3"
             order = 7;
+        }
+        else if(category.includes(tag_id)){
+            color = "#faf9f7";
+            order = 0;
         }
         return [color, order];
     }
