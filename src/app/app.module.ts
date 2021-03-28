@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { HttpClientModule } from '@angular/common/http';
 
-import { NgxMasonryModule } from 'ngx-masonry';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home';
@@ -24,7 +23,6 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    NgxMasonryModule,
     MatButtonToggleModule,
     MDBBootstrapModule.forRoot()
   ],
