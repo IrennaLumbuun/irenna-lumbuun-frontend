@@ -1,17 +1,29 @@
 #home{
+    padding-top: 100px;
+    background-color:skyblue;
+    opacity:0.8;
+    margin: 0 2rem 2rem 2rem;
+    height: 95vh;
+    display:flex;
+    flex-direction:column;
+}
+#home-text-container{
     background: transparent;
-    position: absolute;
-    top: 80%;
-    width: 100%;
     display:flex;
     font-family: sans-serif;
+    font-weight: 600;
     margin-left:1rem;
+    margin-top: 1rem;
+}
+
+#computer-gif{
+    max-width: 35vw;
+    align-self: center;
 }
 
 #tagline{
     color: white;
-    font-size: 4vh;
-    font-family: sans-serif;
+    font-size: 5vw;
     align-self: center;
 }
 
@@ -28,5 +40,87 @@
 
 #blink{
     color:white;
-    font-size:5vh;
+    font-size:6vw;
+}
+
+div#contact-list {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 7px;
+    justify-content: left;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+/* Icons */
+a.contact-list-option{
+    background: #fff;
+    border-radius:4px;
+    text-align:center;
+    text-decoration:none;
+    position: relative;
+    display: inline-block;
+    width: 10vw;
+    height: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin:0 2px;
+    -o-transition:all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    -webkit-font-smoothing: antialiased;
+}
+
+a.contact-list-option:hover {
+    opacity:1;
+    background: rgb(177, 212, 235);
+}
+
+/* pop-up text */
+a.contact-list-option span {
+    opacity:1;
+    color:#666;
+    position:absolute;
+    bottom:0;
+    left:-25px;
+    right:-25px;
+    padding:1vw;
+    z-index: 1;
+    font-size:3vw;
+    border-radius:2px;
+    background:#fff;
+    visibility:hidden;
+    opacity:0;
+    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* pop-up text arrow */
+a.contact-list-option span:before {
+    opacity:1;
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-top: 1vw solid #fff;
+    position:absolute;
+    bottom:-5px;
+    left:50px;
+}
+
+/* text pops up when icon is in hover state */
+a.contact-list-option:hover span {
+    bottom:11vw;
+    visibility:visible;
+    opacity:1;
+}
+img.img-option {
+    width: 80%;
+}
+#img-github{
+    padding-top:4px;
 }

@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit{
     let speed = 50;
     let txt = 'Irenna Lumbuun codes.';
     let tagline = document.getElementById("tagline");
+    tagline.innerHTML = "";
     while (i < txt.length){
       tagline.innerHTML += txt.charAt(i);
       i++;
