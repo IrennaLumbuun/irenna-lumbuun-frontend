@@ -12,6 +12,7 @@ import { ProjectsComponent } from './projects';
 import { BeyondCodingComponent } from './beyond-coding';
 import { ProjectsService } from './projects/projects.service';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
     AppRoutingModule,
     MatButtonToggleModule,
     NgxMasonryModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    NgbModule
   ],
   providers: [ProjectsService],
   bootstrap: [AppComponent]

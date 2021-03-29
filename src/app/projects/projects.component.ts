@@ -7,7 +7,7 @@ import { NgxMasonryOptions, NgxMasonryComponent } from 'ngx-masonry';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent{
-  title = "Projects";
+  title = "What I've Done So Far";
   projects: any;
   tags: any;
   isDataAvailable: boolean = false;
