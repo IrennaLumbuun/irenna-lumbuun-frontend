@@ -1,8 +1,9 @@
 #home{
     padding-top: 100px;
-    background-color:skyblue;
-    opacity:0.8;
+    background-color:#F5D5CB;
+    /* opacity:0.8; */
     margin: 0 2rem 2rem 2rem;
+    padding-top:20%;
     height: 95vh;
     display:flex;
     flex-direction:column;
@@ -17,7 +18,7 @@
 }
 
 #computer-gif{
-    max-width: 35vw;
+    max-width: 40vw;
     align-self: center;
 }
 
@@ -25,6 +26,13 @@
     color: white;
     font-size: 5vw;
     align-self: center;
+    font-family:monospace;
+    /* color:black; */
+}
+
+#blink{
+    font-size:6vw;
+    /* color:black; */
 }
 
 .blink_me {
@@ -36,11 +44,6 @@
   50% {
     opacity: 0;
   }
-}
-
-#blink{
-    color:white;
-    font-size:6vw;
 }
 
 div#contact-list {
