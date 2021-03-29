@@ -17,7 +17,7 @@
 </div>
 
 <div *ngIf="isDataAvailable" id="projects-container">
-  <ngx-masonry style="width: 100vw;">
+  <ngx-masonry style="width: 100vw; height:3075px;">
     <div ngxMasonryItem *ngFor="let project of projects" class="project-component">
       <a href={{project.url}} target="_blank">
         <h1 class="project-title">{{project.title}}</h1>

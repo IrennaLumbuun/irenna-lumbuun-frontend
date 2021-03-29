@@ -1,21 +1,18 @@
-import { Component, OnChanges } from '@angular/core';
+import { Component } from '@angular/core';
 import { ProjectsService } from './projects.service';
+import { NgxMasonryOptions, NgxMasonryComponent } from 'ngx-masonry';
 
 @Component({
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']
 })
-export class ProjectsComponent {
+export class ProjectsComponent{
   title = "Projects";
   projects: any;
   tags: any;
   isDataAvailable: boolean = false;
   isTagsAvailable: boolean = false;
   getTagColorClone: any;
-
-  ngOnChanges(){
-    console.log(this.isDataAvailable)
-  }
 
   getTitle(){
     return this.title
@@ -25,17 +22,20 @@ export class ProjectsComponent {
   
   // tag filters are clicked
   onValChange(value: any){
+      this.isDataAvailable=false;
       value = this.convertToId(value);
       // if user wants to see all projects
       if (value === "all"){
         this.service.getProjects().then((data :any)=> {
           this.projects = data;
+          this.isDataAvailable = true;
         })
       } else {
         if (value === "html/css") value = "html-css"
         // if user selected a specific technology
         this.service.getProjectsByTag(value).then((data :any)=> {
         this.projects = data;
+        this.isDataAvailable = true;
       })
       }
 
@@ -52,6 +52,7 @@ export class ProjectsComponent {
     service.getProjects().then(data => {
       this.projects = data;
       this.isDataAvailable= true;
+      console.log("projects are available")
     })
     this.tags = service.getTags().then(data => {
       this.tags = data;
