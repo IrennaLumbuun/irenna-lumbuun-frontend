@@ -9,7 +9,7 @@ export class HomeComponent implements OnInit{
   async ngOnInit(){
     let i = 0;
     let speed = 50;
-    let txt = 'Irenna Lumbuun codes.';
+    let txt = '<I am a computer science student./>';
     let tagline = document.getElementById("tagline")!;
     tagline.innerHTML = "";
     while (i < txt.length){

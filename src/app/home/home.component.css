@@ -1,38 +1,37 @@
 #home{
     padding-top: 100px;
-    background-color:#F5D5CB;
-    /* opacity:0.8; */
     margin: 0 2rem 2rem 2rem;
-    padding-top:10vh;
-    height: 95vh;
+    padding-top:40vh;
     display:flex;
     flex-direction:column;
 }
 #home-text-container{
     background: transparent;
     display:flex;
+    align-self:center;
     font-family: sans-serif;
     font-weight: 600;
-    margin-left:1rem;
-    margin-top: 1rem;
 }
 
-#computer-gif{
-    max-width: 40vw;
-    align-self: center;
+h1#title {
+    text-align: center;
+    font-size: 7vw;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0;
 }
 
 #tagline{
     color: white;
-    font-size: 5vw;
+    font-size: 4vw;
     align-self: center;
-    font-family:monospace;
-    /* color:black; */
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-top:0;
 }
 
 #blink{
     font-size:6vw;
-    /* color:black; */
 }
 
 .blink_me {
@@ -46,84 +45,54 @@
   }
 }
 
-div#contact-list {
-    display: grid;
-    grid-auto-flow: column;
-    grid-column-gap: 7px;
-    justify-content: left;
-    margin-top: 1.5rem;
-    margin-left: 1rem;
+div#home-button-container {
+    display: flex;
+    align-self: center;
 }
 
-/* Icons */
-a.contact-list-option{
-    background: #fff;
-    border-radius:4px;
-    text-align:center;
-    text-decoration:none;
-    position: relative;
-    display: inline-block;
-    width: 10vw;
-    height: 10vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    margin:0 2px;
-    -o-transition:all .5s;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    transition: all .5s;
-    -webkit-font-smoothing: antialiased;
+.contact-button{
+    width: 25vw;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size:20px;
+    margin-right:1rem;
+    text-align: center;
 }
 
-a.contact-list-option:hover {
-    opacity:1;
-    background: rgb(177, 212, 235);
+/* Mobile setting */
+@media (max-width: 600px) {
+  .contact-button{
+        font-size:4vw;
+    }
 }
 
-/* pop-up text */
-a.contact-list-option span {
-    opacity:1;
-    color:#666;
-    position:absolute;
-    bottom:0;
-    left:-25px;
-    right:-25px;
-    padding:1vw;
-    z-index: 1;
-    font-size:3vw;
-    border-radius:2px;
-    background:#fff;
-    visibility:hidden;
-    opacity:0;
-    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+#home-contact-button {
+    color: #F5D5CB;
+    border: 2px solid #F5D5CB;
 }
 
-/* pop-up text arrow */
-a.contact-list-option span:before {
-    opacity:1;
-    content:'';
-    width: 0; 
-    height: 0; 
-    border-left: 1vw solid transparent;
-    border-right: 1vw solid transparent;
-    border-top: 1vw solid #fff;
-    position:absolute;
-    bottom:-5px;
-    left:50px;
+#home-contact-button:hover {
+    background-color: #F5D5CB;
+    color: black;
 }
 
-/* text pops up when icon is in hover state */
-a.contact-list-option:hover span {
-    bottom:11vw;
-    visibility:visible;
-    opacity:1;
+#linkedin-contact-button {
+    color: #ABDEE6;
+    border: 2px solid #ABDEE6;
 }
-img.img-option {
-    width: 80%;
+
+#linkedin-contact-button:hover {
+    background-color: #ABDEE6;
+    color: black;
 }
-#img-github{
-    padding-top:4px;
+
+#github-contact-button {
+    color: #C270C0;
+    border: 2px solid #C270C0;
+}
+
+#github-contact-button:hover {
+    background-color: #C270C0;
+    color: black;
 }
