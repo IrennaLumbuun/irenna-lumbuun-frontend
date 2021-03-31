@@ -1,7 +1,7 @@
 #home{
     padding-top: 100px;
     margin: 0 2rem 2rem 2rem;
-    padding-top:40vh;
+    padding-top:30vh;
     display:flex;
     flex-direction:column;
 }
