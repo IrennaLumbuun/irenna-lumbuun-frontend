@@ -1,8 +1,9 @@
 h1#project-title {
-    padding-top: 100px;
-    text-align: center;
-    color: whitesmoke;
-    font-weight:400px;
+  padding-top: 100px;
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 3rem;
 }
 
 h2#project-filter-title {
@@ -30,7 +31,8 @@ div.filter-option {
   border-radius: 10px;
   margin: 0.5rem -6px;
   text-transform: capitalize;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 400;
   font-family:monospace;
 }
 
@@ -40,15 +42,20 @@ div#projects-container {
 }
 
 div.project-component {
-  background-color: white;
+  background-color: #3B3B3B;
   margin: 1rem;
   border-radius: 10px;
   padding: 1rem;
   max-width: 300px;
   height: fit-content;
+  color:white;
 }
 div.project-component:hover {
-  opacity: 75%;
+  background-color: #3E4C59;
+}
+
+.project-description{
+  font-size: 16px;
 }
 
 ul.project-tags {
@@ -59,6 +66,7 @@ ul.project-tags {
   display: inline-block;
   font-size: 12px;
   font-family:monospace;
+  color: black;
 }
 
 li.project-tags-item {
@@ -67,6 +75,7 @@ li.project-tags-item {
   border-radius: 10px;
   width: fit-content;
 }
+
 a,
 a:visited {
   text-decoration: none;
